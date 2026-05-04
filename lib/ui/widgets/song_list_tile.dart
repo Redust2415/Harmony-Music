@@ -144,7 +144,7 @@ class SongListTile extends StatelessWidget with RemoveSongFromPlaylistMixin {
                     song: song,
                   ),
             title: Marquee(
-              delay: const Duration(milliseconds: 300),
+              delay: const Duration(milliseconds: 3000),
               duration: const Duration(seconds: 5),
               id: song.title.hashCode.toString(),
               child: Text(
